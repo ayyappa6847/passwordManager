@@ -1,0 +1,78 @@
+.psd-item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  border: 1px solid #f8fafc;
+  border-radius: 8px;
+  margin: 6px 6px 6px 6px;
+  padding: 12px 8px 12px 8px;
+}
+.psd-item {
+  flex-wrap: wrap;
+}
+
+.blue {
+  background-color: blue;
+}
+.orange {
+  background-color: orange;
+}
+.teal {
+  background-color: teal;
+}
+.red {
+  background-color: red;
+}
+.light-blue {
+  background-color: lightblue;
+}
+.delete-icon {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.res-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.initial-container {
+  margin: 0px 10px 0px 14px;
+  padding: 10px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+}
+
+.delete-container {
+  margin-left: 35px;
+}
+.initial-heading {
+  font-family: 'Roboto';
+  font-weight: 400;
+  color: #f8fafc;
+}
+.details-data {
+  font-family: 'Roboto';
+  color: #f8fafc;
+}
+.font {
+  font-size: 20px;
+  padding-bottom: 4px;
+}
+.stars {
+  width: 100px;
+}
+.btn-click {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
